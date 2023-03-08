@@ -5,7 +5,7 @@ import Homee from '../components/home/Home'
 import Services from '../components/services/Services'
 import About from '../components/about/About'
 import styles from '../styles/Home.module.css'
-// import Slider from '../components/Slider'
+import Slider from '../components/Slider'
 export default function Home() {
   
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <Homee/>
       <Services/>
-      {/* <Slider/> */}
+      <Slider/>
       <About/>
 
     </div>
