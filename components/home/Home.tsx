@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Home.module.css'
-import Image from 'next/image'
+import img from 'next/image'
 const Home = () => {
   return (
     <div className={styles.Home} id='home'>
@@ -8,14 +8,14 @@ const Home = () => {
         <div className='w-[40%] max-md:w-[60%] max-sm:w-[80%]'>
           <h1 className='font-bold text-5xl'>Build Your <br /> Awesome <br /> Platform</h1>
           <h1 className='py-6 text-[#D9D9D9] text-xl'>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</h1>
-          <button className=' flex gap-2 items-center px-4 py-2 font-bold bg-[#5454D4]'><h1>Our Services</h1> <Image src="/icon.png" alt="/icon.png" /></button>
+          <button className=' flex gap-2 items-center px-4 py-2 font-bold bg-[#5454D4]'><h1>Our Services</h1> <img src="/icon.png" alt="/icon.png" /></button>
         </div>
         <div className='relative'>
-          <Image src="/homeSide-Image.png" alt="" />
-       <Image src={'/graph.png'} className='absolute top-20 '  alt="" />
-       <Image src={'/circle.png'} className='absolute top-20 right-0' alt="" />
-       <Image src={'/triangle.png'} className='absolute bottom-0' alt="" />
-       <Image src={'/add.png'} className='absolute bottom-0 right-0' alt="" />
+          <img src="/homeSide-img.png" alt="" />
+       <img src={'/graph.png'} className='absolute top-20 '  alt="" />
+       <img src={'/circle.png'} className='absolute top-20 right-0' alt="" />
+       <img src={'/triangle.png'} className='absolute bottom-0' alt="" />
+       <img src={'/add.png'} className='absolute bottom-0 right-0' alt="" />
           
           </div>
       </section>

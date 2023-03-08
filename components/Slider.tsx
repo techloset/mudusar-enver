@@ -4,9 +4,8 @@ import Slider from "react-slick";
 import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
-
-export default Slider= () => {
+import img from "next/image";
+ const  SliderComponent= () => {
     const slider = React.useRef(null);
 
     const settings = {
@@ -43,12 +42,12 @@ export default Slider= () => {
 
     }
     return (
-        <div  className="my-20" id='projects' >
+        <div className="my-20" id='projects' >
 
             <div className="flex gap-16 relative justify-between max-md:justify-center text-center flex-wrap items-center">
                 <h1 className="ml-20 max-lg:ml-10 text-white max-md:text-left  text-4xl font-bold mb-10 font-serif">Our Awesome Portofolio</h1>
-               <Image src={"/add.png"} className="absolute top-[-80%] left-[5%]" alt="" />
-               <Image src={"/circle.png"} className="absolute top-8 right-[10%]" alt="" />
+                <img src={"/add.png"} className="absolute top-[-80%] left-[5%]" alt="" />
+                <img src={"/circle.png"} className="absolute top-8 right-[10%]" alt="" />
             </div>
             <div className="flex  justify-center " >
 
@@ -56,31 +55,31 @@ export default Slider= () => {
                 <div className="w-11/12 relative py-14 ">
                     <Slider ref={slider} {...settings}>
                         <div >
-                            <h3 className="ml-[10%] max-sm:ml-10"><Image className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali Image" /></h3>
+                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali img" /></h3>
 
                         </div >
                         <div className="mt-[30%] max-lg:mt-0 ">
-                            <h3 className="ml-[10%] max-sm:ml-10"><Image className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali Image" /></h3>
+                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div className="mt-[60%] max-lg:mt-0">
-                            <h3 className="ml-[10%] max-sm:ml-10"><Image className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali Image" /></h3>
+                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div >
-                            <h3 className="ml-[10%] max-sm:ml-10"><Image className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali Image" /></h3>
+                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div className="mt-[30%] max-lg:mt-0 " >
-                            <h3 className="ml-[10%]  max-sm:ml-10"><Image className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali Image" /></h3>
+                            <h3 className="ml-[10%]  max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div className="mt-[60%] max-lg:mt-0" >
-                            <h3 className="ml-[10%]  max-sm:ml-10"><Image className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali Image" /></h3>
+                            <h3 className="ml-[10%]  max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali img" /></h3>
 
                         </div>
                     </Slider>
-<Image src={'/graph.png'} className='absolute bottom-0 max-md:bottom-[-10%]' alt="" />
+                    <img src={'/graph.png'} className='absolute bottom-0 max-md:bottom-[-10%]' alt="" />
                 </div>
             </div>
 
@@ -90,3 +89,4 @@ export default Slider= () => {
     );
 
 }
+export default SliderComponent
