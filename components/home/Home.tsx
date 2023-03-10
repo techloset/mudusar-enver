@@ -10,7 +10,7 @@ const Home = () => {
         >
           <h1 className='font-bold text-5xl'>Build Your <br /> Awesome <br /> Platform</h1>
           <h1 className='py-6 text-[#D9D9D9] text-base'>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</h1>
-          <button className=' flex gap-2 items-center px-4 py-2 font-normal bg-[#5454D4]'><h1 className=''>Our Services</h1> <img src={'/icon.png'} alt="/icon.png" /></button>
+          <button className=' flex gap-2 items-center px-4 py-2 font-normal bg-[#5454D4]'><h1 className=''>Our Services</h1> <img src={'/arrow-top-left.png'} alt="icon" /></button>
         </div>
         <div className='relative'>
           <img src="/homeSide-img.png" alt="" />
