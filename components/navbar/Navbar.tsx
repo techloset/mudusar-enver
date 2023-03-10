@@ -29,10 +29,10 @@ const Navbar = () => {
           <div>
           <ul className={`  max-md:${loader ? 'block' : 'hidden'
           } max-md:flex max-md:flex-col max-md:mt-10 flex gap-6  text-[#D9D9D9] font-semibold  pt-1 `}>
-          <li className='hover:text-[#5454D4]'><button onClick={()=>handleLinkClick('home')}>Home</button>  </li>
-          <li className='hover:text-[#5454D4]'><button onClick={()=>handleLinkClick('services')}>Services</button></li>
-          <li className='hover:text-[#5454D4]'><button onClick={()=>handleLinkClick('projects')}>Our Project</button></li>
-          <li className='hover:text-[#5454D4] '><button onClick={()=>handleLinkClick('about')}>About us</button></li></ul>
+          <li className='hover:text-[#5454D4] font-sans'><button onClick={()=>handleLinkClick('home')}>Home</button>  </li>
+          <li className='hover:text-[#5454D4] font-sans'><button onClick={()=>handleLinkClick('services')}>Services</button></li>
+          <li className='hover:text-[#5454D4] font-sans'><button onClick={()=>handleLinkClick('projects')}>Our Project</button></li>
+          <li className='hover:text-[#5454D4] font-sans'><button onClick={()=>handleLinkClick('about')}>About us</button></li></ul>
           </div>
           </div>
         <div className='md:block max-md:hidden'>

@@ -4,27 +4,31 @@
 *{
   padding: 0;
 }
-.slick-arrow:before{
+ .slick-arrow:before{
   /* background-color: red; */
-  font-size: 50px !important;
+   /* font-size: 50px !important;
   width: 100px;
   height: 100px; 
   color: #5454D4 !important;
-  border-radius:0 !important;
+  border-radius:0 !important; */
+  display: none;
 }
-.slick-dots li button:before{
-  color: #5454D4 !important;
-  font-size: 16px !important;
 
+@media screen and (min-width:668px) {
+  .slick-dots li button:before{
+    color: #5454D4 !important;
+    font-size: 16px !important;
+  
+  }  
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .slick-arrow {
     /* color: #54d48e !important; */
     /* display: none; */
     /* position: absolute !important; */
     
-  }
-  .slick-next{
+  /* }  */
+  /* .slick-next{
     top: 100% !important;
     left: 60% !important;
     margin-top: 50px;
@@ -36,4 +40,4 @@
     margin-top: 50px;
     
   }
-}
+} */

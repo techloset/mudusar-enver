@@ -5,7 +5,7 @@ import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import img from "next/image";
- const  SliderComponent= () => {
+const SliderComponent = () => {
     const slider = React.useRef(null);
 
     const settings = {
@@ -45,10 +45,12 @@ import img from "next/image";
         <div className="my-20" id='projects' >
 
             <div className="flex gap-16 relative justify-between max-md:justify-center text-center flex-wrap items-center">
-                <h1 className="ml-20 max-lg:ml-10 text-white max-md:text-left  text-4xl font-bold mb-10 font-serif">Our Awesome Portofolio</h1>
+                <h1 className="ml-20 max-lg:ml-10 text-white max-md:text-left  text-4xl font-bold mb-10 font-sans">Our Awesome Portofolio</h1>
                 <img src={"/add.png"} className="absolute top-[-80%] left-[5%]" alt="" />
-                <img src={"/circle.png"} className="absolute top-8 right-[10%]" alt="" />
+                <img src={"/circle.png"} className="absolute top-8 max-sm:top-14 right-[10%]" alt="" />
+
             </div>
+           
             <div className="flex  justify-center " >
 
 
@@ -79,11 +81,14 @@ import img from "next/image";
 
                         </div>
                     </Slider>
-                    <img src={'/graph.png'} className='absolute bottom-0 max-md:bottom-[-10%]' alt="" />
+                    <img src={'/graph.png'} className='absolute bottom-0 max-sm:bottom-[-20%]' alt="" />
                 </div>
             </div>
 
-
+            <div className="flex gap-4 justify-center lg:hidden mr-20 max-md:mr-0 mb-8 ">
+                <button onClick={() => slider?.current?.slickNext()}><img src={'/sliderPrevIcon.png'} alt="slider wali img" /></button>
+                <button className="text-right" onClick={() => slider?.current?.slickPrev()}> <img src={'/sliderNextIcon.png'} alt="slider wali img" /></button>
+            </div>
 
         </div>
     );
