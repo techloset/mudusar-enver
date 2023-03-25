@@ -47,7 +47,7 @@ const SliderComponent = () => {
         <div className="my-20" id='projects' >
 
             <div className="flex gap-16 relative justify-between max-md:justify-center text-center flex-wrap items-center">
-                <h1 className={`${styles.customClass} ml-20 max-lg:ml-10 text-white max-md:text-left leading-[70px]  text-[58px] font-bold mb-10 font-sans`}>Our Awesome Portofolio</h1>
+                <h1 className={`${styles.customClass} ml-20 max-lg:ml-10 text-white max-md:text-left leading-[70px]  text-[58px] max-sm:text-[36px] max-sm:leading-[54px] font-bold mb-10 font-sans`}>Our Awesome Portofolio</h1>
                 <img src={"/add.png"} className="absolute top-[-80%] left-[5%]" alt="" />
                 <img src={"/circle.png"} className="absolute top-8 max-sm:top-14 right-[10%]" alt="" />
 

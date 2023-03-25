@@ -7,7 +7,7 @@ const Services = () => {
         <div className='text-white relative mt-28' id='services'>
             <img src={'/triangle.png'} className='absolute max-md:top-[-5%] top-[-2%] left-[20%] max-sm:top-[-4%] max-sm:left-[10%]' alt="" />
             <img src={'/add.png'} className='absolute top-16 max-sm:top-24 right-[10%]' alt="" />
-            <h1 className={`${styles.customClass} text-[60px] leading-[70px] font-bold text-center whitespace-pre-wrap`}>
+            <h1 className={`${styles.customClass} text-[60px] leading-[70px] max-sm:text-[36px] max-sm:leading-[54px] font-bold text-center whitespace-pre-wrap`}>
                 The Service We Provide<span className='max-md:hidden'><br /></span> For You
             </h1>
             {/* <h1 className='text-4xl font-bold text-center whitespace-pre-wrap '>The Service We Provide  For You</h1> */}
