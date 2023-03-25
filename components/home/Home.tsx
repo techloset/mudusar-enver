@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className='relative z-20'>
 
-          <img src="/homeSide-img.png" className='ml-[0%] w-[450px] ' alt="" />
+          <img src="/homeSide-img.png" className='ml-[0%] w-[500px] ' alt="" />
           <img src={'/graph.png'} className='absolute top-20 max-sm:left-4 ' alt="" />
           <img src={'/circle.png'} className='absolute top-20 right-0 max-sm:right-4' alt="" />
           <img src={'/triangle.png'} className='absolute bottom-0 max-sm:left-4 max-sm:bottom-[-8%]' alt="" />
