@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className='' id='about'>
             <div className='flex justify-between flex-wrap relative gap-16 px-[7%] items-center py-32 bg-[#1E1E20]'>
-                <h1 className={`${styles.customClass} text-white text-4xl font-bold`}>Contact us for the service
+                <h1 className={`${styles.customClass} text-white text-[60px] font-bold`}>Contact us for the service
                     <br />
                     you want to use</h1>
                     <img src={'/add.png'} className='absolute top-10 right-16 xl:right-[7%]' alt="" />
