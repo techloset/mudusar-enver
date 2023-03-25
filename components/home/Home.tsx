@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <div className={styles.Home} id='home'>
       <section className='text-white mt-10 mx-[7%] flex justify-between items-center max-lg:flex-wrap' >
-        <div className='w-[40%] max-md:w-[60%] max-sm:w-[80%] '
+        <div className=''
         >
-          <h1 className={`${styles.customClass} font-bold text-[80px]  leading-[84px] max-sm:text-[42px] max-sm:leading-[63px]  customClass`} >Build Your <br /> Awesome <br /> Platform</h1>
-          <h1 className='py-6 text-[#D9D9D9] text-[13px] max-md:text-[16px]'>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</h1>
+          <h1 className={`${styles.customClass} font-bold text-[80px]  leading-[84px] max-sm:text-[42px] max-sm:leading-[63px]  customClass`} >Build Your <span > <br className='max-lg:hidden' /></span> Awesome <br className='max-lg:hidden' /> Platform</h1>
+          <h1 className='py-6 text-[#D9D9D9] lg:w-[50%] text-[13px] max-md:text-[16px]'>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</h1>
           <button className=' flex gap-2 items-center px-[22px] py-[12px] font-normal bg-[#5454D4]'><h1 className=''>Our Services</h1> <img src={'/arrow-top-left.png'} alt="icon" /></button>
         </div>
         <div className='relative z-20'>

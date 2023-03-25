@@ -27,7 +27,7 @@ const Services = () => {
                             <h1 className=' text-center'>We provide UI/UX Design services, and of course with the best quality</h1>
                         </div> <div className='flex flex-col items-center w-[28%] max-xl:w-[28%] max-md:w-[70%] p-10'>
                             <img src={'/cardIcon3.png'} alt="" />
-                            <h1 className='font-sans text-xl text-center py-4'>Graphik Designer</h1>
+                            <h1 className='font-sans text-xl text-center whitespace-nowrap py-4'>Graphik Designer</h1>
                             <h1 className=' text-center'>We provide Graphic Design services, with the best designers</h1>
                         </div> <div className=' flex flex-col items-center w-[28%] max-xl:w-[28%] max-md:w-[70%] p-10'>
                             <img src={'/cardIcon4.png'} alt="" />
