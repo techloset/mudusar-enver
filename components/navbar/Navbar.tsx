@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className='text-white'>
       <nav className='flex justify-between mx-[7%] items-center max-md:items-start py-5 '>
-        <div><img src={'/logo.png'} width={100} height={100} alt="nav logo" /></div>
+        <div className='flex items-center gap-[8px] '><img src={'/logo.svg'} className='w-[40px] h-[40px] max-md:w-[28px]'  alt="nav logo" /> <h1 className='logoText text-[28px] font-bold leading-[39px] max-sm:leading-[34px]'>Enver</h1></div>
         <div>
           <div>
           <ul className={`  max-md:${loader ? 'block' : 'hidden'

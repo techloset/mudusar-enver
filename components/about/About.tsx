@@ -6,11 +6,9 @@ const About = () => {
     return (
         <div className='' id='about'>
             <div className='flex justify-between flex-wrap relative gap-16 px-[7%] items-center py-32 bg-[#1E1E20]'>
-                <h1 className={`${styles.customClass} text-white text-[60px] leading-[66px] max-sm:text-[36px] max-sm:leading-[54px] font-bold`}>Contact us for the service
-                    <br />
-                    you want to use</h1>
-                    <img src={'/add.png'} className='absolute top-10 right-16 xl:right-[7%]' alt="" />
-                    <img src={'/circle.png'} className='absolute bottom-10 ' alt="" />
+                <h1 className={`${styles.customClass} text-white text-[60px] leading-[66px] max-sm:text-[36px] max-sm:leading-[54px] font-bold max-sm:font-[800] `}>Contact us for the service  <br className='max-lg:hidden' /> you want to use</h1>
+                <img src={'/add.png'} className='absolute top-10 right-16 xl:right-[7%]' alt="" />
+                <img src={'/circle.png'} className='absolute bottom-10 ' alt="" />
                 <button className='rounded-md bg-[#5454D4] border-gray-600 border px-8 py-2  text-white font-semibold'>Contact us</button>
             </div>
             <footer className='flex justify-between max-lg:flex-col text-[12px] max-lg:gap-10 mx-[7%] items-center pt-10 pb-16 '>

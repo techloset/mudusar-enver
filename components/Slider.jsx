@@ -59,27 +59,27 @@ const SliderComponent = () => {
                 <div className="w-11/12 relative py-14 ">
                     <Slider ref={slider} {...settings}>
                         <div >
-                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali img" /></h3>
+                            <h3 className="p-4 max-sm:ml-0"><img className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali img" /></h3>
 
                         </div >
                         <div className="mt-[30%] max-md:mt-0 ">
-                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali img" /></h3>
+                            <h3 className="p-4 max-sm:ml-0"><img className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div className="mt-[60%] max-md:mt-0">
-                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali img" /></h3>
+                            <h3 className="p-4 max-sm:ml-0"><img className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div >
-                            <h3 className="ml-[10%] max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali img" /></h3>
+                            <h3 className="p-4 max-sm:ml-0"><img className="w-[100%]" src={'/sliderImg1.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div className="mt-[30%] max-md:mt-0 " >
-                            <h3 className="ml-[10%]  max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali img" /></h3>
+                            <h3 className="p-4  max-sm:ml-0"><img className="w-[100%]" src={'/sliderImg2.png'} alt="slider wali img" /></h3>
 
                         </div>
                         <div className="mt-[60%] max-md:mt-0" >
-                            <h3 className="ml-[10%]  max-sm:ml-10"><img className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali img" /></h3>
+                            <h3 className="p-4  max-sm:ml-0"><img className="w-[100%]" src={'/sliderImg3.png'} alt="slider wali img" /></h3>
 
                         </div>
                     </Slider>

@@ -24,7 +24,7 @@ const Home = () => {
       </section>
       <section className='mt-20'>
         <div className='text-white mx-[7%]'>
-          <div className='flex justify-between flex-wrap gap-10'><h1 className={`${styles.customClass} font-bold text-[60px] leading-[70px] max-sm:text-[36px] max-sm:leading-[54px]`}>Why Enver Is The <br /> Best Choice?</h1><h1 className='text-[#D9D9D9] text-[13px] max-md:text-[16px]'>Watch this one minute video so you understand why you should <br /> use our services!</h1></div>
+          <div className='flex justify-between flex-wrap gap-10'><h1 className={`${styles.customClass} font-bold text-[60px] leading-[70px] max-sm:text-[36px] max-sm:leading-[54px]`}>Why Enver Is The <br  /> Best Choice?</h1><h1 className='text-[#D9D9D9] text-[13px] max-md:text-[16px]'>Watch this one minute video so you understand why you should <br className='max-md:hidden' /> use our services!</h1></div>
           <div>
 
             <iframe className='w-[100%] mt-10' height="480" src="https://www.youtube.com/embed/JzyU36sHctk" title="Conference Table of the Future by Ideum" allow="accelerometer; autoplay; clipboard-write; ; gyroscope; picture-in-picture; " ></iframe>
